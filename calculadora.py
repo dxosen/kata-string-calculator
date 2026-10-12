@@ -1,5 +1,5 @@
 def somar(numeros):
     if numeros == "":
-        return 
+        return 0
     return int(numeros)
     
