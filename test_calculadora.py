@@ -1,1 +1,1 @@
-
+from calculadora import somar
