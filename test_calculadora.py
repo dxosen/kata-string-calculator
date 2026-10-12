@@ -11,3 +11,6 @@ def test_dois_numeros_separados_por_virgula_devolve_soma():
 
 def test_aceita_qualquer_quantidade_de_numeros_separados_por_virgula():
     assert somar("1,2,3,4,5") == 15
+
+def test_mudanca_de_linha_entre_numeros_devolve_soma():
+    assert somar("1\n2,3") == 6
